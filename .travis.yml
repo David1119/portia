@@ -18,6 +18,8 @@ install:
 - sudo -H pip install tox
 - python -c 'import splash, qt5reactor' # Check it's in the python path
 - cd portiaui
+- nvm install 6.10.0
+- nvm use 6.10.0
 - npm install -g bower
 - npm install
 - bower install
