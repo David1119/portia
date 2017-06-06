@@ -4,6 +4,7 @@ sudo: required
 dist: trusty
 env:
 - WHEELHOUSE=$HOME/.cache/wheelhouse PIP_FIND_LINKS=file://$WHEELHOUSE PIP_WHEEL_DIR=$WHEELHOUSE
+- TRAVIS_NODE_VERSION=6
 cache:
   directories:
   - "$HOME/.cache/pip"
